@@ -6,6 +6,7 @@ import math
 from colorama import init, Fore, Back, Style
 
 
+
 def get_price_per_share(id, volumeTotal):
     werte = exchange.get_last_price_book(id)
     # print(werte)
